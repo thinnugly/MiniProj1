@@ -1,0 +1,10 @@
+<header>
+    <h4>devWN</h4>
+    <ul>
+      <li><a routerLink="/home" [class.active]="activeLink === 'home'" (click)="setActiveLink('home')">Home Page</a></li>
+      <li><a routerLink="/about" [class.active]="activeLink === 'about'" (click)="setActiveLink('about')">Who am I</a></li>
+      <li><a routerLink="/abilities" [class.active]="activeLink === 'skills'" (click)="setActiveLink('skills')"> What do I do</a></li>
+      <li><a routerLink="/hobbies" [class.active]="activeLink === 'hobbies'" (click)="setActiveLink('hobbies')">Hobbies</a></li>
+    </ul>
+  </header>
+
